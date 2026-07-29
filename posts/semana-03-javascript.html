@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 03 - JavaScript - Blog Possi.dev</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">Possi.dev</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../index.html#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="post-full">
+            <h1>JavaScript: o cérebro do site</h1>
+            <p class="post-date">Julho 2026</p>
+
+            <p>HTML é a estrutura, CSS é a aparência, e JavaScript é o comportamento. É o que transforma uma página estática em algo interativo.</p>
+
+            <h2>Manipulação do DOM</h2>
+            <pre><code>const title = document.getElementById('title');
+title.textContent = 'Novo título!';</code></pre>
+
+            <h2>Eventos</h2>
+            <pre><code>button.addEventListener('click', () => {
+    alert('Botão clicado!');
+});</code></pre>
+
+            <h2>Arrays e iteração</h2>
+            <pre><code>const frutas = ['maçã', 'banana', 'uva'];
+frutas.forEach(fruta => console.log(fruta));</code></pre>
+
+            <h2>O que aprendi</h2>
+            <ul>
+                <li>DOM: como JS enxerga e modifica a página</li>
+                <li>Event listeners: reagir a cliques, teclas, envios</li>
+                <li>Arrays e métodos como map, filter, find</li>
+                <li>localStorage: salvar dados no navegador</li>
+            </ul>
+
+            <nav class="post-nav">
+                <a href="semana-02-css.html">⟵ Anterior: CSS</a>
+                <a href="../index.html">Home →</a>
+            </nav>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Possi.dev</p>
+    </footer>
+</body>
+</html>

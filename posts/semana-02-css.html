@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 02 - CSS - Blog Possi.dev</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">Possi.dev</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../index.html#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="post-full">
+            <h1>CSS: flexbox e grid mudam tudo</h1>
+            <p class="post-date">Julho 2026</p>
+
+            <p>Antigamente, centralizar uma <code>&lt;div&gt;</code> era uma tarefa complicada. Hoje, com flexbox, é trivial.</p>
+
+            <h2>Flexbox em ação</h2>
+            <pre><code>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}</code></pre>
+
+            <h2>Responsividade com media queries</h2>
+            <p>Nem todo mundo acessa sites em telas grandes. Media queries adaptam o layout:</p>
+            <pre><code>@media (max-width: 600px) {
+    nav { flex-direction: column; }
+}</code></pre>
+
+            <h2>O que aprendi</h2>
+            <ul>
+                <li>Flexbox resolve 90% dos layouts</li>
+                <li>Media queries para mobile-first</li>
+                <li>CSS custom properties (variáveis) evitam repetição</li>
+                <li>Transições e animações dão vida ao design</li>
+            </ul>
+
+            <nav class="post-nav">
+                <a href="semana-01-html.html">⟵ Anterior: HTML</a>
+                <a href="semana-03-javascript.html">Próximo: JavaScript →</a>
+            </nav>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Possi.dev</p>
+    </footer>
+</body>
+</html>

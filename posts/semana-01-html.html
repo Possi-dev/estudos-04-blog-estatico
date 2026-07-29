@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 01 - HTML - Blog Possi.dev</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">Possi.dev</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../index.html#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="post-full">
+            <h1>O que aprendi na primeira semana de HTML</h1>
+            <p class="post-date">Julho 2026</p>
+
+            <p>O HTML (HyperText Markup Language) é a espinha dorsal de qualquer site. Na primeira semana, aprendi os fundamentos:</p>
+
+            <h2>Estrutura básica</h2>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Minha página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Olá, mundo!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+            <h2>Tags semânticas</h2>
+            <p>Em vez de usar <code>&lt;div&gt;</code> para tudo, HTML5 trouxe tags com significado:</p>
+            <ul>
+                <li><code>&lt;header&gt;</code> - cabeçalho</li>
+                <li><code>&lt;nav&gt;</code> - navegação</li>
+                <li><code>&lt;main&gt;</code> - conteúdo principal</li>
+                <li><code>&lt;section&gt;</code> - seção temática</li>
+                <li><code>&lt;article&gt;</code> - conteúdo independente</li>
+                <li><code>&lt;footer&gt;</code> - rodapé</li>
+            </ul>
+
+            <h2>Links e navegação</h2>
+            <p>A tag <code>&lt;a&gt;</code> não serve só para links externos. Com <code>href="#id"</code> você cria navegação interna na página.</p>
+
+            <p>Foi uma ótima primeira semana. Ver uma página surgir no navegador é recompensador!</p>
+
+            <nav class="post-nav">
+                <a href="../index.html">⟵ Voltar ao blog</a>
+                <a href="semana-02-css.html">Próximo: CSS →</a>
+            </nav>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Possi.dev</p>
+    </footer>
+</body>
+</html>
